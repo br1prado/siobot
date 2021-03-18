@@ -550,7 +550,7 @@ while True:
 		sys.exit()
 	else:
 		Clear_Screen()
-		print(f'>> Conectado com sucesso!\n {Fore.RED}VENDA DO BOT PROIBIDA!!!\n')
+		print(f'>> Conectado com sucesso!\n {Fore.RED}VENDA DO BOT PROIBIDA, SE ALGUÉM VENDER, AVISE @suportesio e @NivelHack!!!\n')
 		banca()
 		config['banca_inicial'] = valor_da_banca
 		print(f"{Fore.LIGHTBLUE_EX}Saldo da conta {'demo' if account_type == 'PRACTICE' else 'real'}: {account_balance}")
