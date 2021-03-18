@@ -25,5 +25,5 @@ telegram_id = YOUR TELEGRAM ID
 usar_bot = N
 
 [CONTA]
-email = YOUR E-MAIL IQ OPTION
-senha = YOUR PASSWORD IQ OPTION
+email = silvioraguse@yahoo.com.br
+senha = 87142222
