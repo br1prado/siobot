@@ -127,8 +127,8 @@ global VERIFICA_BOT, TELEGRAM_ID
 VERIFICA_BOT = config['usar_bot']
 TELEGRAM_ID = config['telegram_id']
 
-print(f'''{Fore.BLUE} ######## TESTE BOTSIO | BABY TRADER''')
-print(f'\n{Fore.RED}                      ＞＞＞ ＣＯＮＥＣＴＡＮＤＯ ＜＜＜\n')
+print(f'''{Fore.BLUE} ######## SIO - BOT MOBILE''')
+print(f'\n{Fore.RED}                    👉🏼 🅲🅾🅽🅴🅲🆃🅰🅽🅳🅾 \n')
 if noticias == 'S':
 	try:
 		response = requests.get("http://botpro.com.br/calendario-economico/")
@@ -550,7 +550,7 @@ while True:
 		sys.exit()
 	else:
 		Clear_Screen()
-		print(f'>> Conectado com sucesso!\n {Fore.RED}VENDA DO BOT PROIBIDA, SE ALGUÉM VENDER, AVISE @suportesio e @NivelHack!!!\n')
+		print(f'>> Conectado com sucesso!\n {Fore.RED}Entre em contato com @suportesio!!!\n')
 		banca()
 		config['banca_inicial'] = valor_da_banca
 		print(f"{Fore.LIGHTBLUE_EX}Saldo da conta {'demo' if account_type == 'PRACTICE' else 'real'}: {account_balance}")
@@ -608,7 +608,7 @@ try:
 							hit = False
 
 						if tend != direcao:
-							print(f' PARIDADE {par} CONTRA TENDÊNCIA!\n')
+							print(f' {par} CONTRA TENDÊNCIA!\n')
 							time.sleep(2)
 
 						else:
@@ -621,9 +621,9 @@ try:
 								time.sleep(2)
 							else:
 								if par in paridades_fechadas:
-									print(f' PARIDADE {par} FECHADA!\n')
+									print(f' Ativo {par} Fechado!\n')
 								else:
-									print(' PAYOUT ABAIXO DO MINIMO ESTABELECIDO!\n')
+									print(' Payout abaixo do que você definiu.!\n')
 								time.sleep(2)
 
 			if dif > 0:
